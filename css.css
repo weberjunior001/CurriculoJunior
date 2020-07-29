@@ -4,6 +4,7 @@ body{
     border: 0;
     font-family: 'Gruppo','Bebas Neue', 'Coda', cursive;
     background-image: url(img/fundo.jpg);
+    background-size: 100%;
 }
 /*-----------------------------------------------------------menu--------------------------------------------------------*/
 .menu{
@@ -32,9 +33,7 @@ body{
 
 
 /*-----------------------------------------------------------index--------------------------------------------------------*/
-main{
-    height:  500px;
-}
+
 #nome{
     text-align: center;
     padding-top: 5%;
@@ -43,7 +42,7 @@ main{
 }
 #fotoperfil{
     text-align: center;
-    padding-top: 1%;
+    padding-top: 5%;
     background-image: url(img/nuvem.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -220,14 +219,17 @@ main{
 /*-------------------------------------------------------------portfolio----------------------------------------------------*/
 .hoverzoom {
   position: relative;
-  width: 330px;
-  height: 250px;
+  display: inline;
+  display: inline-block;
   background-color: rgba(255, 255, 255, 0.5);
   overflow: hidden;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   left: 15%;
+  right: 15%;
   border-radius: 15px;
+  margin: -1% 10% 5% 0%;
 }
 .hoverzoom img {
   width: 50%; 
@@ -269,6 +271,7 @@ main{
 }
 .hoverzoom .retina p {
   color: #fff;
+  font-size: 14px;
 }
 .hoverzoom .retina a {
   display: block;
@@ -278,10 +281,11 @@ main{
   border-radius: 4px;
   color: #fff;
   text-decoration: none;
-  padding: 20px 15px;
-  margin-left: 20%;
-  margin-top: 15%;
+  padding: 10px 10px;
+  margin-left: 15%;
+  margin-top: 4%;
 }
+
 /*-------------------------------------------------------------portfolio----------------------------------------------------*/
 
 
