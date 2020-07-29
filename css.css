@@ -57,7 +57,7 @@ body{
 }
 .textme h1{
     color: black;
-    font-size: 30px;
+    font-size: 180%;
     text-align: center;
 }
 .textportfolio{
@@ -71,29 +71,29 @@ body{
 .textme p{
     padding-top: 1%;
     color: black;
-    font-size: 20px;
+    font-size: 180%;
     text-align: justify;
     text-indent: 1.5em;
 }
 .textme li{
-    padding-top: 1%;
+    padding-top: 3%;
     color: black;
-    font-size: 20px;
+    font-size: 180%;
     text-align: justify;
     line-height: 60px;
 }
 #email{
     text-align: center;
     text-indent: 0;
-    font-size: 25px;
+    font-size: 220%;
 }
 /*-----------------------------------------------------------sobre mim--------------------------------------------------------*/
 
 /*----------------------------------------menuhamburguer------------------------*/
 #inicio1, #inicio2, #inicio4, #inicio5, #inicio6{
-    padding-top: 4.1%;
+  padding-top: 5.2%;
 } 
-#inicio3{padding-top: 4%;}
+#inicio3{padding-top: 5.1%;}
 .menupq{
     background:  rgba(255, 255, 255, 0.5);
     border-radius: 50%;
@@ -128,8 +128,8 @@ body{
   /* animação e estilo do menu*/
   #menupq {
     position: fixed;
-    top: 53%;
-    padding-left: 180%;
+    top: 41.5%;
+    padding-left: 185%;
     transform: translate(-50%, -50%);
     list-style: none;
     opacity: 0;
@@ -211,6 +211,10 @@ body{
 
 #conteudoadicionais, #conteudoidiomas, #conteudooutros{
     line-height: 25px;
+}
+
+#conteudoadicionais, #conteudoidiomas, #conteudooutros, #conteudocursos, #conteudoexperiencia, #conteudoformacao{
+  font-size: 140%;
 }
 
 /*-------------------------------------------------------------curriculo----------------------------------------------------*/
