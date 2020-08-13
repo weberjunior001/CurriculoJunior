@@ -3,9 +3,37 @@ body{
     padding: 0;
     border: 0;
     font-family: 'Gruppo','Bebas Neue', 'Coda', cursive;
-    background-image: url(img/fundo.jpg);
-    background-size: 100%;
+    background-color:lightBlue;
 }
+
+#snow{
+  display: block;
+  background-image: url(img/nuvem1.png), url(img/nuvem2.png), url(img/nuvem3.png);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  /* -webkit-animation: snow 1000s linear infinite; */
+  -moz-animation: snow 1000s linear infinite;
+  -ms-animation: snow 600s linear infinite;
+  animation: snow 300s cubic-bezier(0.4, 0, 1, 1) infinite;
+  /* -webkit-transform: translate3d(0,0,0); */
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  -o-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+ 
+} 
+@keyframes snow {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+}
+100% {
+    background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;
+}
+}
+
 /*-----------------------------------------------------------menu--------------------------------------------------------*/
 .menu{
     position: fixed;
@@ -43,9 +71,6 @@ body{
 #fotoperfil{
     text-align: center;
     padding-top: 5%;
-    background-image: url(img/nuvem.png);
-    background-repeat: no-repeat;
-    background-position: center;
     height: 75%;
 }
 /*-----------------------------------------------------------index--------------------------------------------------------*/
